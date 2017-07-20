@@ -32,7 +32,7 @@ img{
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 
     /*
         TODO:
@@ -43,6 +43,7 @@ img{
 }
 #site-header{
     flex-direction: column;
+    flex-basis: 100%;
     /*
         TODO
         - Flexbox property here
@@ -87,8 +88,6 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-
     /*
         TODO:
         - Use Flexbox to arrange the navigation links
@@ -109,6 +108,7 @@ img{
 }
 #main-navigation #logo{
     margin-right: 400px;
+    margin-left: 20px;
 
     /*
         TODO:
@@ -120,7 +120,7 @@ main{
     padding: 20px;
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
-    width: 65%;
+    width: 60%;
     position: relative;
     bottom: 60px;
     left: 5%
@@ -135,10 +135,10 @@ aside{
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
     justify-content: flex-start;
-    width: 25%;
+    width: 21%;
     position: relative;
     bottom: 60px;
-    left: 75%;
+    left: 5%;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -182,6 +182,7 @@ article img{
   float: right;
   width: 280px;
   height: 210px;
+  padding: 15px 10px;
     /*
         TODO:
         - Float article images to the right
@@ -195,7 +196,7 @@ article footer p{
   color: #666;
   font-size: 0.8em;
   display: block;
-  margin-top: 50px;
+  margin-top: 40px;
   padding-top: 15px;
 
     /*
