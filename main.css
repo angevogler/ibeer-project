@@ -54,7 +54,6 @@ img{
     padding: 60px 0 120px 0;
     font-size: 4em;
     background-image: URL(file:///Users/angelavogler/Desktop/Projects/ibeer-project/img/header-img.jpg);
-
     /*
         TODO:
         - Add a background image "header-img.jpg"
@@ -100,6 +99,7 @@ img{
     text-transform: uppercase;
     padding: 10px 20px;
     justify-content: space-between;
+    flex-basis: 100%;
 
     /*
         TODO:
@@ -107,8 +107,9 @@ img{
     */
 }
 #main-navigation #logo{
-    margin-right: 400px;
+    /*margin-right: 400px;*/
     margin-left: 20px;
+    flex-basis: 500%;
 
     /*
         TODO:
